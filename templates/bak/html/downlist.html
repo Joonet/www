@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML>
+<HEAD>
+<title>{aspcms:sorttitle},{aspcms:sitetitle}</title>
+<meta name="Keywords" content="{aspcms:sitekeywords}" >
+<meta name="Description" content="{aspcms:sortdesc}" >
+<meta name="Copyright" content="Red Ideal CopyRight 2011" />
+<meta name="generator" content="Red Ideal" />
+<META http-equiv=X-UA-Compatible content=IE=EmulateIE7>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<LINK media=screen href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/style.css" type=text/css rel=stylesheet>
+<SCRIPT src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/submenu.js" type=text/javascript></SCRIPT>
+</HEAD>
+<BODY>
+<div class=top>{aspcms:top}</div>
+<div class=ad><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/1.jpg" title="PREC factory group"></div>  
+<Div class=wrap> 
+  <div class=bodyshadow> 
+    
+    <DIV class=main> 
+      <DIV class=side>{aspcms:template src=left.html}</DIV>
+      <DIV class=mainR> 
+        <h3>Download and Support</h3>
+        <h5>your position: <a href="{aspcms:sitepath}{aspcms:languagepath}">Home</a> 
+          {aspcms:position} > [position:link]{/aspcms:position}</h5>
+        <div class=newslist> {aspcms:list size=4 order=order} 
+          <div class=pp> <A href="[list:link]" title="[list:title]"><img src="[list:pic]" title="[list:title]" alt="[list:title]" /></a></div>
+          <div class=text> 
+            <h2><A href="[list:link]" title="[list:title]">[list:title]</a></h2>
+            <li>[list:desc len=250]...</li>
+            <li class=color>Published: [list:date style=yy-m-d] >><A href="[list:link]" title="[list:title]"> 
+              More detail</a> <<</li>
+          </div>
+          <DIV class=clear></DIV>
+          {/aspcms:list} </div>
+        <DIV class=clear></DIV>
+        <DIV class=pageNavi2>[list:pagenumber len=7]</DIV>
+      </div>
+    </div>
+  </div>
+</div>
+<DIV class=clear></DIV>
+{aspcms:foot} 
+</BODY>
+</HTML>

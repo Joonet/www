@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML>
+<HEAD>
+<title>{aspcms:sorttitle},{aspcms:sitetitle}</title>
+<meta name="Keywords" content="{aspcms:sitekeywords}" >
+<meta name="Description" content="{aspcms:sortdesc}" >
+<meta name="Copyright" content="Red Ideal CopyRight 2011" />
+<meta name="generator" content="Red Ideal" />
+<META http-equiv=X-UA-Compatible content=IE=EmulateIE7>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<LINK media=screen href="{aspcms:sitepath}/templates/{aspcms:defaulttemplate}/css/style.css" type=text/css rel=stylesheet>
+</HEAD>
+<BODY>
+{aspcms:top}
+<div class="ad" style="background:#2e323d url({aspcms:sitepath}/templates/{aspcms:defaulttemplate}/images/09.jpg) no-repeat center bottom;">
+  <div class=adpic>
+    <h2>Quickly build up Mock up & Prototyping from your drawings, or an rough 
+      sketch, or primal idea & concept.</h2>
+  </div>
+</div>
+<!----ending--->
+<Div class=wrap>
+  <h2>Indutrial Solutions</h2>
+  <DIV class=pdesc> {aspcms:about sort={aspcms:sortid}}[about:info]{/aspcms:about}</div>
+  <div class=productlist> {aspcms:list size=15 order=order}
+    <div class=picshow>
+      <ul id=hovershow>
+        <li><a  target="_blank" href="[list:link]" title="test"><img src="[list:pic]" alt="test"></a></li>
+        <h4><A target="_blank" href="[list:link]" title="[list:title]">[list:title]</a></h4>
+      </ul>
+    </div>
+    {/aspcms:list} </div>
+  <DIV class=clear></DIV>
+  <DIV class=pageNav>[list:pagenumber len=7]</DIV>
+</div>
+<DIV class=clear></DIV>
+{aspcms:foot}
+</BODY>
+</HTML>

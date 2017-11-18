@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HEAD>
+<title>[content:title]-{aspcms:sortname},{aspcms:sitetitle}</title>
+<meta name="Keywords" content="[content:keyword]" >
+<meta name="Description" content="[content:desc]" >
+<meta name="Copyright" content="Red Ideal CopyRight 2011" />
+<meta name="generator" content="Red Ideal" />
+<META http-equiv=X-UA-Compatible content=IE=EmulateIE7>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<META content="MSHTML 6.00.3790.4807" name=GENERATOR>
+<LINK href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/style.css" type="text/css" rel="stylesheet">
+<SCRIPT src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/submenu.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/jquery-1.2.6.pack.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/base.js" type=text/javascript></SCRIPT>
+</HEAD>
+<BODY>
+<div class=top>{aspcms:top}</div>
+<div class=ad><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/3.jpg" title="PREC"></div>
+<DIV class=wrap>
+
+  <div class=bodyshadow> 
+
+    <DIV class=main> 
+      <DIV class=side>{aspcms:template src=left.html}</DIV>
+      <DIV class=mainR> 
+        <h3>Product Center</h3>
+        <h5>your position: <a href="{aspcms:sitepath}{aspcms:languagepath}">Home</a> 
+          {aspcms:position} > [position:link]{/aspcms:position}</h5>
+        <DIV class=clear></DIV>
+        <!--pic zoom star-->
+        <link href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/css.css" type="text/css" rel="stylesheet">
+        <div id=preview> 
+          <div class=jqzoom id=spec-n1 ><IMG src="[content:pic]" jqimg="[content:pic]" ></div>
+          <div id=spec-n5> 
+            <div id=spec-left><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/left.gif" /></div>
+            <div id=spec-list> 
+              <ul>
+                {aspcms:cimages count=5 contentid=[content:id]} 
+                <li><img src='[cimages:src]'></li>
+                {/aspcms:cimages} 
+              </ul>
+            </div>
+            <div id=spec-right><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/right.gif" /></div>
+          </div>
+        </div>
+        <SCRIPT src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/zoom.js" type=text/javascript></SCRIPT>
+        <SCRIPT src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/lib.js" type=text/javascript></SCRIPT>
+        <SCRIPT src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/alixixi_com.js" type=text/javascript></SCRIPT>
+        <!--pic zoom stop-->
+        <div class=desc> 
+          <ul>
+            <H2>[content:title]</H2>
+            <li>Model No.: <strong>[content:P_Model]</strong></li>
+            <li>[content:P_desc]</li>
+            <li><a href=# onClick="window.open('{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/html/mail.html','','height=450,   width=550,   top=300,   left=200,toolbar=no,   menubar=no,   scrollbars=no,resizable=no')"><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/buy.png"></a></li>
+            <li>Prev: -> {aspcms:prev}</li>
+            <li>Next: -> {aspcms:next}</li>
+            <h2>Share to: </h2>
+            <li> 
+              <!-- Baidu Button BEGIN -->
+              <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"> 
+                <a class="bds_linkedin"></a> <a class="bds_fbook"></a> <a class="bds_ms"></a> 
+                <a class="bds_twi"></a> <a class="bds_msn"></a> <a class="bds_deli"></a> 
+              </div>
+              <script type="text/javascript" id="bdshare_js" data="type=tools&amp;mini=1&amp;uid=6595000" ></script>
+              <script type="text/javascript" id="bdshell_js"></script>
+              <script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+              <!-- Baidu Button END -->
+            </li>
+          </ul>
+        </div>
+        <div class=feature> 
+          <h2>Product Detail</h2>
+          [content:info] </div>
+      </div>
+    </DIV>
+  </DIV>
+</DIV>
+<DIV class=clear></DIV>
+{aspcms:foot} 
+</BODY>
+</HTML>

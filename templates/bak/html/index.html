@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<title>{aspcms:sitetitle},{aspcms:additiontitle}</title>
+<meta name="Keywords" content="{aspcms:sitekeywords}" >
+<meta name="Description" content="{aspcms:sitedesc}" >
+<meta name="Copyright" content="Red Ideal CopyRight 2011" />
+<meta name="generator" content="Red Ideal" />
+<META http-equiv=X-UA-Compatible content=IE=EmulateIE9>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<LINK href="/favicon.ico" rel="shortcut icon">
+<LINK media=screen href="{aspcms:sitepath}/templates/{aspcms:defaulttemplate}/css/style.css" type="text/css" rel="stylesheet">
+</HEAD>
+<BODY>
+{aspcms:template src=head_index.html}
+<div class=slide>
+  <h2>WE BRING IDEAS TO<br>
+    MASS PRODUCTION</h2>
+</div>
+<div class=clear></div>
+<div class=block>
+  <h2>WHERE OUR HAPPY CLIENTS FROM</h2>
+  <div class=bigmap><img src="{aspcms:sitepath}/templates/{aspcms:defaulttemplate}/images/bigmap.jpg" alt="clients map" /></div>
+  <div class=clear></div>
+  <div class=wrap>
+    <h2>CASE STUDY</h2>
+    <div class=stitle>From smart hardware to consumer electronics to communication devices, to smart home appliances, to medical appratus<br>
+      and equipments. PRECINT has successfully brought dozens of ideas to markets around the world. </div>
+    <div class=clear></div>
+    {aspcms:news sort=4 num=22 order=order}
+    <div class=item>
+      <div class=title><a href="[news:P_wlink]" target="_blank" title="[news:title]">[news:title]</a></div>
+      <div class=vtitle><a href="[news:P_wlink]" target="_blank">[news:P_vtitle]</a></div>
+      <div class=navpic><a href="[news:P_wlink]" target="_blank"><img src="{aspcms:sitepath}[news:pic]" alt="[news:title]" title="[news:title]" /></a></div>
+    </div>
+    {/aspcms:news}
+    <div class=clear></div>
+  </div>
+</div>
+<div class=clear></div>
+{aspcms:foot}
+</BODY>
+</HTML>

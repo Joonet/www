@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<title>Search-{aspcms:sitetitle}</title>
+<meta name="Keywords" content="{aspcms:sitekeywords}" >
+<meta name="Description" content="{aspcms:sitedesc}" >
+<META http-equiv=X-UA-Compatible content=IE=EmulateIE7>
+<meta name="Copyright" content="Red Ideal CopyRight 2011" />
+<meta name="generator" content="Red Ideal" />
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<META content="MSHTML 6.00.3790.4807" name=GENERATOR>
+<LINK media=screen href="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/css/style.css" type=text/css rel=stylesheet>
+<SCRIPT src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/js/submenu.js" type=text/javascript></SCRIPT>
+</HEAD>
+<BODY>
+<div class=top>{aspcms:top}</div>
+  <div class=ad><img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/1.jpg" title="PREC"></div>
+<div class=wrap> 
+  <div class=bodyshadow> 
+  
+    <div class=moresearch> 
+      <form name="find" action="" method="get">
+        Keywords: 
+        <input type="text" name="keys" value="{aspcms:keys}"/>
+        Selectable Sort: 
+        <select name="searchtype">
+          <option value="0" >All</option>
+          <option value="2" {if:{aspcms:searchtype}=2}selected{end if}>News</option>
+          <option value="3" {if:{aspcms:searchtype}=3}selected{end if}>Product</option>
+          <option value="4" {if:{aspcms:searchtype}=4}selected{end if}>Download</option>
+          <option value="5" {if:{aspcms:searchtype}=5}selected{end if}>Job</option>
+          <option value="6" {if:{aspcms:searchtype}=6}selected{end if}>Picture</option>
+        </select>
+        <input type="submit" value="Search"/ class="bt">
+      </form>
+    </div>
+    <DIV class=clear></DIV>
+    <div class=searchshow> {aspcms:searchlist size=4} 
+      <h2><a href="[searchlist:link]" target="_blank" title="[newssearchlist:title]"> 
+        [searchlist:title len=80]</a> </h2>
+      <div class=searchcontent>[ [searchlist:sortname] ] [searchlist:date style=yy-m-d]</div>
+      <div class=searchcontent> [searchlist:desc len=350]</div>
+      {/aspcms:searchlist} </div>
+    <DIV class=searchNavi>[searchlist:pagenumber len=5]</DIV>
+  </div>
+</div>
+<DIV class=clear></DIV>
+{aspcms:foot} 
+</BODY>
+</HTML>

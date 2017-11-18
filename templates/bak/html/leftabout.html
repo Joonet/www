@@ -1,0 +1,17 @@
+<DIV class=sidebar>
+<h3>Product Services </h3>
+  <UL>
+    {aspcms:navlist type=4} 
+    <li> 
+      <h4>{if:[navlist:sortid]=[navlist:cursortid]}{end if}<a title="[navlist:name]" href="[navlist:link]">[navlist:name]</a> 
+      </h4>
+      {aspcms:1navlist type=[navlist:sortid]} 
+      <ol>
+        <a href="[1navlist:link]"> [1navlist:name] </a> 
+      </ol>
+      {/aspcms:1navlist} </li>
+    {/aspcms:navlist} 
+  </UL>
+<img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/about.jpg" title="About PREC">
+<img src="{aspcms:sitepath}/Templates/{aspcms:defaulttemplate}/images/serv.jpg" title="Engineering Design Solutions">
+</div>

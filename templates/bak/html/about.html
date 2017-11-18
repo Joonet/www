@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109140454-1"></script>
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109140454-1');
+  </script>
+<title>[about:title],{aspcms:sitetitle}</title>
+<meta name="Keywords" content="[about:keyword]">
+<meta name="Description" content="[about:desc]">
+<META http-equiv=X-UA-Compatible content=IE=EmulateIE9>
+<meta name="Copyright" content="Red Ideal CopyRight 2011"/>
+<meta name="generator" content="Red Ideal"/>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<META content="MSHTML 6.00.3790.4807" name=GENERATOR>
+<LINK media=screen href="{aspcms:sitepath}/templates/{aspcms:defaulttemplate}/css/style.css" type="text/css" rel="stylesheet">
+</HEAD>
+<BODY>
+{aspcms:top}
+<div class=aboutUs>
+  <h2>A <span>P</span>roduct <span>R</span>ealization <span>E</span>xpress <span>C</span>hannel</h2>
+  <h4>A place where your dreams come true</h4>
+  <div class=aboutText>[about:info]</div>
+</div>
+<div class=clear></div>
+<!---ending-->
+<div class=wrap>
+  <div class=teamTop><img src="{aspcms:sitepath}/templates/{aspcms:defaulttemplate}/images/20year.png"><br>
+    years of product<br>
+  development experience</div>
+  <div class=teamTopr><img src="{aspcms:sitepath}/templates/{aspcms:defaulttemplate}/images/100customer.png"><br>
+    long term partners<br>
+  from different fields</div>
+  <div class=clear></div>
+  <!---ending-->
+  <div class=team>
+    <h2>Some Team Members</h2>
+    <h4>Who are actually building your dreams</h4>
+    <ul>
+      {aspcms:news sort=5 num=30 order=addtime}
+      <li><img src="{aspcms:sitepath}[news:pic]" title="[news:title]" alt="[news:title]" />
+        <h3>[news:title]</h3>
+        <h4>[news:FO_job]</h4>
+      </li>
+      {/aspcms:news}
+    </ul>
+  </div>
+  <!---ending--> 
+</div>
+<div class=clear></div>
+<div class=contact>
+  <div class=wrap>
+    <div class=cont_txt>
+      <h3>PRECINTL CO., LTD.</h3>
+      {aspcms:about sort=6}[about:info]{/aspcms:about} </div>
+    <div class=cform>
+      <form method="post" action="{aspcms:sitepath}/about/save.asp?action=add">
+        <table cellspacing="0" cellpadding="0">
+          <tr>
+            <td><input size="60" name="Contact" type="text"  placeholder="Your Name*"  /></td>
+          </tr>
+          <tr>
+            <td><input size="30" name="ContactWay" type="text" placeholder="E-mail Address*" /></td>
+          </tr>
+          <tr>
+            <td><input size="30" name="companyname" type="text" placeholder="Company Name*" /></td>
+          </tr>
+          <tr>
+            <td><textarea rows="10" cols="60" name="Content" placeholder="How can we help you?" ></textarea></td>
+          </tr>
+          <tr>
+            <td><input type="submit" name="submit" value="SUBMIT" class="btt" /></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <div class=clear></div>
+    <!---ending--> 
+  </div>
+</div>
+<div class=clear></div>
+<!---ending-->
+<div class=wrap>
+  <div class=map_txt><img src="{aspcms:sitepath}/templates/{aspcms:defaulttemplate}/images/map.jpg"></div>
+</div>
+<div class=clear></div>
+{aspcms:foot}
+</BODY>
+</HTML>

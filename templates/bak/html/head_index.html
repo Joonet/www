@@ -1,0 +1,22 @@
+﻿<div class="header" id="float" >
+  <div class=logo><a title="{aspcms:sitetitle}" href="{aspcms:sitepath}/"> <img src="{aspcms:sitepath}{aspcms:sitelogo}" align="absmiddle"></a> <span></span></div>
+  <div class=search>
+    <FORM action="{aspcms:sitepath}{aspcms:languagepath}search.asp" method="post" >
+      <INPUT type="submit" value="go" class="searchBtn">
+      <INPUT name="keys" class=txt onfocus="if(value == '')value = ''" onblur="if(value=='')value='';" value="">
+    </FORM>
+  </div>
+  <!---start.menu--->
+  <div id=menu>
+    <ul>
+      <li><a class="shover" href="{aspcms:sitepath}{aspcms:languagepath}">CASE STUDY</a></li>
+      {aspcms:navlist}
+      <li><a href="[navlist:link]">[navlist:name]</a></li>
+      {/aspcms:navlist}
+    </ul>
+  </div>
+  <!---end.menu--->
+  <div class=clear></div>
+</div>
+<script type="text/javascript" src="{aspcms:sitepath}/templates/{aspcms:defaulttemplate}/js/float_a.js"></script>
+<div class=clear></div>

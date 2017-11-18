@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{aspcms:sitetitle}{aspcms:additiontitle}</title>
+<meta name="Keywords" content="{aspcms:sitekeywords}" />
+<meta name="Description" content="{aspcms:sitedesc}" />
+<meta name="Copyright" content="Red Ideal CopyRight 2011" />
+<meta name="generator" content="Red Ideal" />
+<style>
+body { margin:0px auto; font-size: 12px; COLOR: #333; FONT-FAMILY: Verdana, Arial;}
+h2 {font-size:14px; line-height:120%; padding-top:50px;}
+
+.smenu { margin:0px auto; width:960px; }
+OL {padding:0px; margin:0px;}
+.smenu ul li { width:170px; float:left; height:30px; list-style-type:disc;}
+.smenu ul li ol { float:left;  padding-top:5px; width:130px;  margin:0px;}
+
+A:link { TEXT-DECORATION: none;color:#000;}
+A:visited { TEXT-DECORATION: none;color:#000;}
+A:hover { 	COLOR: #ff0000; TEXT-DECORATION: underline}
+
+</style>
+</head>
+<body>
+<DIV class=smenu> 
+<UL>
+ <LI><a  href="{aspcms:sitepath}{aspcms:languagepath}"><h2>Home</h2></A></li>
+    {aspcms:navlist} 
+    <li><a href="[navlist:link]"><h2>[navlist:name]</h2></a>
+{aspcms:1navlist type=[navlist:sortid]} 
+      <ol>
+        <a href="[1navlist:link]">[1navlist:name]</a>
+      </ol>
+      {/aspcms:1navlist} </li>
+    {/aspcms:navlist} 
+  </ul>
+</DIV>
+</body>
+</html>

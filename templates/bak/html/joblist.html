@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<title>{aspcms:sorttitle}-{aspcms:sitetitle}</title>
+<meta name="Keywords" content="{aspcms:sortkeyword}" >
+<meta name="Description" content="{aspcms:sortdesc}" >
+<meta name="Copyright" content="Red Ideal CopyRight 2011" />
+<meta name="generator" content="Red Ideal" />
+<META http-equiv=X-UA-Compatible content=IE=EmulateIE9>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<META content="MSHTML 6.00.3790.4807" name=GENERATOR>
+<LINK media=screen href="{aspcms:sitepath}/templates/{aspcms:defaulttemplate}/css/style.css" type="text/css" rel="stylesheet">
+</HEAD>
+<BODY>
+{aspcms:top}
+<div class=joblist>
+  <h2>CURRENT OPENINGS</h2>
+  <div class=aboutText>
+    <ul>
+      {aspcms:list size=20 order=order}
+      <li><a href="mailto:Sales@precintl.com?subject=Applying for [list:title]">[list:title ]<br><br><span>_____</span></a></li>
+      {/aspcms:list}
+    </ul>
+  </div>
+</div>
+<div class=clear></div>
+<!---ending--> 
+{aspcms:foot}
+</BODY>
+</HTML>

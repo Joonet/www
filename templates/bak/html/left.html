@@ -1,0 +1,8 @@
+<div class=sidebar> 
+  <h3> {aspcms:about sort={aspcms:topsortid}} [about:title] {/aspcms:about} </h3>
+  <UL>
+    {aspcms:navlist type={aspcms:topsortid}} 
+    <li> <a {if:[navlist:sortid]={aspcms:sortid}} class="cur" {end if} title="[navlist:name]" href="[navlist:link]">[navlist:name]</a></li>
+    {/aspcms:navlist} 
+  </UL>
+</div>
