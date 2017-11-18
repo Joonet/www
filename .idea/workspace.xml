@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56a95cd2-5628-4dde-93a5-b9ed4b0b05bc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bak/html/head_index.html" afterPath="$PROJECT_DIR$/templates/bak/html/head_index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bak/html/index.html" afterPath="$PROJECT_DIR$/templates/bak/html/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +21,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/bak/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
+            <state relative-caret-position="667">
               <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding />
             </state>
@@ -60,8 +61,8 @@
       <file leaf-file-name="head_index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/bak/html/head_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="319">
+              <caret line="11" column="92" lean-forward="true" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -113,8 +114,8 @@
         <option value="$PROJECT_DIR$/html/about/about-16.html" />
         <option value="$PROJECT_DIR$/html/about/about-20.html" />
         <option value="$PROJECT_DIR$/html/about/about-26.html" />
-        <option value="$PROJECT_DIR$/templates/bak/html/head_index.html" />
         <option value="$PROJECT_DIR$/templates/bak/html/index.html" />
+        <option value="$PROJECT_DIR$/templates/bak/html/head_index.html" />
       </list>
     </option>
   </component>
@@ -317,12 +318,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510037408585</updated>
       <workItem from="1510037414561" duration="2033000" />
-      <workItem from="1510988175595" duration="2294000" />
+      <workItem from="1510988175595" duration="2744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4327000" />
+    <option name="totallyTimeSpent" value="4777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2478" height="1417" extended-state="6" />
@@ -571,15 +572,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/bak/html/head_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="319">
+          <caret line="11" column="92" lean-forward="true" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/bak/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
+        <state relative-caret-position="667">
           <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding />
         </state>
