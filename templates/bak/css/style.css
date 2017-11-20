@@ -84,7 +84,7 @@ A:hover { color:#666; text-decoration: none;}
 .block h2 { float:left; width:100%; text-align:center;  font-size:18px; font-weight:normal;  line-height:120px; padding:0px; margin:0px; }
 .block .bigmap {margin:0px auto; width:1000px; text-align:center;}
 .block .bigmap img {width:100%;}
-.block .stitle { float:left; width:100%; height:60px;text-align:center;  color:#999;}
+.block .stitle { float:left; width:100%; height:80px;text-align:center;  color:#999;}
 .block .wrap h2 {padding-top:95px;}
 
 .item {float:left; width:100%; padding:0px; margin-top:80px; margin-bottom:70px;}
