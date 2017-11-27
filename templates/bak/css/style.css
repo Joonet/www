@@ -12,7 +12,7 @@ A IMG {BORDER-TOP-STYLE: none}
 TABLE, TD, INPUT {	font-size: 12px}
 h1, h2, h3, h4, h5, h6 { margin:0px; line-height:120%;}
 H1 {font-size: 18px; }
-H2 {font-size: 14px;}
+H2 {font-size: 14px; }
 H3 {font-size: 14px; }
 H4 {font-size: 12px; }
 H5 {font-size: 12px; }
@@ -84,13 +84,13 @@ A:hover { color:#666; text-decoration: none;}
 .block h2 { float:left; width:100%; text-align:center;  font-size:18px; font-weight:normal;  line-height:120px; padding:0px; margin:0px; }
 .block .bigmap {margin:0px auto; width:1000px; text-align:center;}
 .block .bigmap img {width:100%;}
-.block .stitle { float:left; width:100%; height:80px;text-align:center;  color:#999;}
+.block .stitle { float:left; width:100%; height:200px;text-align:justify;  color:#999;}
 .block .wrap h2 {padding-top:95px;}
 
 .item {float:left; width:100%; padding:0px; margin-top:80px; margin-bottom:70px;}
 .item:hover {}
 .item .title {float:left; width:100%; font-size:18px; font-weight:normal; text-align:center; background:#e56d31; line-height:32px; color:#fff;}
-.item .vtitle {float:left; width:100%; text-align:center; padding:0px; color:#999; background:#fff;}
+.item .vtitle {float:left; width:100%; text-align:justify; padding:0px; color:#999; background:#fff;}
 .item .vtitle p {padding:50px 0px 50px 0px; margin:0px; line-height:25px;}
 .item .navpic {float:left; width:100%; text-align:center; margin:0px; border:1px solid #eee;}
 .item .navpic img {max-width:100%;}
@@ -221,7 +221,7 @@ A:hover { color:#666; text-decoration: none;}
 .picshow  h4 { width:130px; text-align:center; font-weight:normal; float:left; color:#333;}
 
 .pageNav {float:left;  width:1000px;  height:26px; border-top:#ccc 1px dashed;text-align:center; padding-top:10px; margin:10px 0px 10px 0px; } 
-.pageNav  A: {text-align:center;padding-left:5px; padding-right:5px; height:25px;}
+.pageNav  A:active {text-align:center;padding-left:5px; padding-right:5px; height:25px;}
 .pageNav  A:link { text-align:center; padding-left:5px; padding-right:5px;height:25px;}
 .pageNav  A:visited { text-align:center; padding-left:5px; padding-right:5px;height:25px;}
 .pageNav  A:hover { text-align:center;padding-left:5px; padding-right:5px;height:25px;}
@@ -278,7 +278,7 @@ A:hover { color:#666; text-decoration: none;}
 .searchcontent {WIDTH:950px; padding-bottom:15px; float:left; padding-left:10px;}
 .searchNavi { width:930px; padding-left:20px; float:left; height:26px; padding-top:10px; border-top:#666 1px dashed;margin-bottom:15px;}
 .searchNavi span { text-align:center;padding-left:0px; padding-right:5px;height:25px;}
-.searchNavi  A: {text-align:center;padding-left:5px; padding-right:5px; height:25px; color:#0557DF}
+.searchNavi  A:active {text-align:center;padding-left:5px; padding-right:5px; height:25px; color:#0557DF}
 .searchNavi  A:link { text-align:center; padding-left:5px; padding-right:5px;height:25px; color:#0557DF;}
 .searchNavi  A:visited { text-align:center; padding-left:5px; padding-right:5px;height:25px; color:#0557DF}
 .searchNavi  A:hover { text-align:center;padding-left:5px; padding-right:5px;height:25px; color:#FFB400;}
