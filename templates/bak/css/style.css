@@ -172,7 +172,7 @@ A:hover { color:#666; text-decoration: none;}
 .services p {font-size:14px; text-align:center; padding:0px;  width:100%;  line-height:30px; display:block; color:#fff;   }
 .services h4 a {  width:450px;  display:block; color:#fff; text-align:center;  line-height:45px;  border:1px solid #fff; border-radius:5px;}
 .services h4 a:hover {opacity:0.9;  display:block; background:#fff; color:#666; }
-.servText {float:left; margin:110px 50px 110px 50px; padding:60px 0px 60px 0px; width:900px; font-size:14px; text-align:center;  border-top:1px solid #666; border-bottom:1px solid #666;
+.servText {float:left; margin:110px 50px 110px 50px; padding:60px 0px 60px 0px; width:900px; font-size:14px; text-align:justify;  border-top:1px solid #666; border-bottom:1px solid #666;
     color: #999;}
 
 .servblock { float:left; width:100%; padding:0px;}
